@@ -1,0 +1,74 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8d69ac;
+    color: #27042b;
+    padding: 20px 40px;
+
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.profil img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+section{
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #8a779b;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0.1);
+
+}
+nav a{
+    color: #2c082c;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+
+}
+nav a:hover{
+    color: #b7a2c9;
+
+}
+.proyek {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.proyek div {
+    background: #79528a;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: #736573;
+    transition: transfrom 0.3;
+}
+.proyek div:hover {
+    transform: translate(-5px);
+}
+footer {
+    text-align: center;
+    padding: 200px 0;
+    background: #8a779b;
+    color: #79528a;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
